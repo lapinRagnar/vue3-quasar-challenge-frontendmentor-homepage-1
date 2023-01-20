@@ -5,7 +5,7 @@
     <div class="row q-col-gutter-md">
 
 
-      <div class="col-sm-9 col-xs-12 ">
+      <div class="col-md-9 col-xs-12 ">
 
         <q-card class="my-card" flat>
           <img src="image-web-3-desktop.jpg" height="230">
@@ -13,7 +13,7 @@
           <q-card-section class="row justify-around">
             <div class="text-h3 col-sm-5 col-xs-12 text-weight-bold">The Bright Future of Web 3.0</div>
 
-            <div class="q-gutter-sm col-sm-5 col-xs-12">
+            <div class="q-gutter-sm col-md-5 col-xs-12">
               <div class="text-caption">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</div>
               <q-btn
                 class=" my-btn-color text-white q-mt-lg"
@@ -29,7 +29,7 @@
 
       </div>
 
-      <div class="col-sm-3 col-xs-12">
+      <div class="col-md-3 col-xs-12">
 
         <q-card
           class="my-card text-white q-pa-none q-ma-none"
@@ -71,7 +71,7 @@
     <div class="row">
 
       <q-card
-        class="my-card-2 q-mt-md col col-xs-12"
+        class="my-card-2 q-mt-md col col-md-4 col-xs-12"
         flat
         v-for="(item, i) in myTextCard2"
         :key="i"
