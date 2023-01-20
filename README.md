@@ -14,11 +14,36 @@ npm install
 quasar dev
 ```
 
+# Frontend Mentor - News homepage solution
 
-### Build the app for production
-```bash
-quasar build
-```
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+
+
+### Links
+
+- Solution URL: https://quasar-frontendmontor-ch1.web.app/
+- Live Site URL: https://quasar-frontendmontor-ch1.web.app/
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- vue js && quasar
+
+
+## Author
+- lapinRagnar : https://github.com/lapinRagnar
+
+
+
