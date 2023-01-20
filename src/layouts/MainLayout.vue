@@ -50,9 +50,43 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
+      side="right"
     >
-      <q-list>
-        rien
+      <q-list class="q-pl-md q-pt-md" >
+
+        <q-item class="align-x-cross row justify-end" active-class="my-menu-link">
+
+          <q-btn
+            dense
+            round
+            unelevated
+            icon="fa-solid fa-xmark"
+            @click="toggleLeftDrawer"
+            size="xl"
+          />
+        </q-item>
+
+
+        <q-item exact clickable v-ripple class="q-mt-xl text-subtitle1">
+          <q-item-section>Home</q-item-section>
+        </q-item>
+
+        <q-item exact clickable v-ripple class="text-subtitle1">
+          <q-item-section>New</q-item-section>
+        </q-item>
+
+        <q-item exact clickable v-ripple class="text-subtitle1">
+          <q-item-section>Popular</q-item-section>
+        </q-item>
+
+        <q-item exact clickable v-ripple class="text-subtitle1">
+          <q-item-section>Trending</q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple class="text-subtitle1">
+          <q-item-section>Categories</q-item-section>
+        </q-item>
+
       </q-list>
     </q-drawer>
 
@@ -88,18 +122,33 @@ export default defineComponent({
 
 <style lang="scss">
 
-  /* .my-background-color {
+  .my-background-color {
     background-color: rgba(254, 253, 249, 1);
-  } */
+    color: rgb(126, 122, 122);
+  }
+
+  body {
+    background-color: rgba(254, 253, 249, 1)!important;
+  }
 
 
   .my-padding-x{
     padding-left: 100px;
     padding-right: 100px;
+
+    @media (max-width: 600px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 
   .my-active-class{
     color: aqua;
+  }
+
+
+  .my-menu-link{
+    color: rgb(203, 78, 78);
   }
 
 </style>
